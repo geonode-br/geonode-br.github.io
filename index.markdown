@@ -5,7 +5,7 @@
 layout: home
 ---
 
-![alt text](assets/img/geonode-br.png "Geonode BR")
+![Geonode BR](assets/img/geonode-br.png "Geonode BR")
 
 ## I Encontro de Usuários e Desenvolvedores do GeoNode Brasil: *Gerenciamento de Conteúdo Geoespacial Ambiental*
 
@@ -13,7 +13,23 @@ layout: home
 
 17 e 18 de Março, 9h às 12h, no [Canal da Embrapa no Youtube](https://www.youtube.com/c/embrapa)
 
+Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7) para participar do evento e receber nossas newsletters!
+
 <br />
+
+# Realização
+
+![Embrapa](assets/img/partners/embrapa.png "Embrapa")
+![IBGE](assets/img/partners/ibge.png "IBGE")
+![SGB/CPRM](assets/img/partners/sgb_cprm.png "SGB/CPRM")
+![ANA](assets/img/partners/ana.png "ANA")
+
+# Apoio Institucional
+
+![Embrapa](assets/img/partners/embrapa.png "Embrapa")
+![IBGE](assets/img/partners/ibge.png "IBGE")
+![SGB/CPRM](assets/img/partners/sgb_cprm.png "SGB/CPRM")
+![ANA](assets/img/partners/ana.png "ANA")
 
 # Programação
 
