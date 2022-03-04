@@ -11,13 +11,13 @@ layout: home
 
 ---
 
-17 e 18 de Março, 9h às 12h, no Canal da Embrapa no Youtube
+17 e 18 de Março, 9h às 12h, no [Canal da Embrapa no Youtube](https://www.youtube.com/c/embrapa)
 
 <br />
 
 # Programação
 
-## Dia - 17/03/2022 (Quinta-feira)
+## Dia 17/03/2022 (Quinta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=W8XaFdakBEs)
 
 > GeoNode: solução para a criação de IDEs e o compartilhamento de dados espaciais abertos - Moderadora: Margareth Simões (Embrapa Solos)
 
@@ -32,7 +32,7 @@ layout: home
 
 ---
 
-## Dia  - 18/03/2022 (Sexta-feira)
+## Dia 18/03/2022 (Sexta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=J529I5FSfBE)
 
 > PITCH de Experiências institucionais e desafios com uso do GeoNode - Moderadora: Daniela Maciel Pinto (Embrapa Territorial)
 
