@@ -26,10 +26,13 @@ Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7)
 
 # Apoio Institucional
 
-![Embrapa](assets/img/partners/embrapa.png "Embrapa")
-![IBGE](assets/img/partners/ibge.png "IBGE")
-![SGB/CPRM](assets/img/partners/sgb_cprm.png "SGB/CPRM")
-![ANA](assets/img/partners/ana.png "ANA")
+![UFPR](assets/img/partners/ufpr.png "UFPR")
+![CAGEPA](assets/img/partners/cagepa.png "CAGEPA")
+![GEOBASES](assets/img/partners/geobases.png "GEOBASES")
+![GeoSolutions](assets/img/partners/geosolutions.png "GeoSolutions")
+![GeoCursos](assets/img/partners/geocursos.png "GeoCursos")
+![OSGEO](assets/img/partners/osgeo.png "OSGEO")
+![QGIS-BR](assets/img/partners/qgisbr.png "QGIS-BR")
 
 # Programação
 
