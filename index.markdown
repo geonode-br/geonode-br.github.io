@@ -1,0 +1,77 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+![alt text](assets/img/geonode-br.png "Geonode BR")
+
+## I Encontro de Usuários e Desenvolvedores do GeoNode Brasil: *Gerenciamento de Conteúdo Geoespacial Ambiental*
+
+---
+
+17 e 18 de Março, 9h às 12h, no Canal da Embrapa no Youtube
+
+<br />
+<br />
+
+# Programação
+
+## Dia - 17/03/2022 (Quinta-feira)
+
+- **9h** | (Abertura) GeoNode BR: iniciativa nacional para desenvolvimento compartilhado de soluções focadas em recursos espaciais | Empresa Brasileira de Pesquisa Agropecuária (Embrapa), Instituto Brasileiro de Geografia e Estatística (IBGE), Serviço Geológico do Brasil (CPRM) e Agência Nacional de Águas e Saneamento Básico (ANA)
+
+> GeoNode: solução para a criação de IDEs e o compartilhamento de dados espaciais abertos | Moderadora: Margareth Simões (Embrapa Solos)
+
+- **9h15** | Open Spatial Data: o que ainda precisamos saber para promover o dado espacial aberto | Rafael Lopes da Silva (IBGE)
+
+- **9h45** | Softwares Livres e INDE | Rogério Borba (IBGE)
+
+- **10h15** | Consolidação das IDEs como recurso para a democratização social do conhecimento aberto sobre o território brasileiro | Hesley Py (ANP)
+
+- **10h45** | Recomendações OSGEO e uso do GeoNode para estruturação de IDEs: a experiência da Universidade Federal do Paraná | Silvana Camboim (UFPR)
+
+- **11h15** | Potencial de aplicação do GeoNode | Davi de Oliveira Custódio (Embrapa Territorial)
+
+- **11h45** | Discussões
+
+- **12h** | Encerramento
+
+---
+
+## Dia  - 18/03/2022 (Sexta-feira)
+
+- **9h Abertura** | PITCH de Experiências institucionais e desafios com uso do GeoNode | Moderadora: Daniela Maciel Pinto (Embrapa Territorial)
+
+- **9h05** | Geobases/ES | Giuliano Grigolin
+
+- **9h10** | Diretoria de Serviço Geográfico do Exército/DSG |  Major Luiz Claudio Andrade
+
+- **9h15** | ZETTA/UFLA | Nadir Antunes de Andrade Junior
+
+- **9h20** | ANA | Alexandre Amorim
+
+- **9h25** | Ministério Público do Paraná - MPPR  | Maurielle Felix da Silva
+
+- **9h30** | Companhia de Água da Paraíba/Cagepa | Diego Varela
+
+- **9h35** | UNB | Elton Souza Oliveira
+
+- **9h40** | CODEPLAN-DF | (à confirmar)
+
+> Palestras
+
+- **9h45** | GeoNode para desenvolvedores Django | Carlos Motta (CPRM)
+- **10h20** | State of GeoNode | Alessio Fabiani e Giovanni Allegri (GeoSolutions)
+
+> Mesa Redonda
+
+- **11h** | Comunidade desenvolvedora aberta no Brasil para o GeoNode | Mediadores: Carlos Mota (CPRM) e Alexandre Amorim (ANA)
+  - Experiência do QGIS BR | Sidney Gouveia (Geosaber)
+  - GeoServer BR | Fernando Quadro (Geocursos)
+  - GeoNodeBR | Carlos Mota (CPRM) e Alexandre Amorim (ANA)
+
+- **11h30** | Discussões
+
+- **12h**  | Encerramento
