@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+{%- assign social = site.minima.social_links -%}
+
+<section class="jumbotron text-center">
+  <div class="container banner">
+    <img src="/assets/img/geonode-br.png" 
+         title="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />    
+    <p class="lead text-muted">{{ site.description | escape }}</p>
+    <p>
+      <a href="/sobre/" class="btn btn-primary mx-2">
+        <i class="fa fa-info-circle"></i> Sobre
+      </a>
+      {%- if social.github -%}
+      <a href="https://github.com/{{ social.github | cgi_escape | escape }}" class="btn btn-secondary mx-2" target="_blank"> 
+        <i class="fa fa-github"></i> Projetos
+      </a>
+      {%- endif -%}
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/132843?s=200&v=4" alt="GeoNode" width="140" height="140">
+      <h2>IDE livre e de Código Aberto</h2>
+      <p><b>GeoNode</b> é um aplicativo baseado na web e plataforma para desenvolvimento de sistemas de informação geoespacial (GIS) e para implantação de infraestruturas de dados espaciais (IDE). 
+        O Geonode oferece suporte uma gama de padrões <a href="https://www.ogc.org/">OGC</a> & <a href="https://committee.iso.org/home/tc211">ISO/TC 211</a></p>
+      <p><a class="btn btn-secondary" href="https://geonode.org/" target="_blank" role="button">Conheça o Projeto »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/132843?s=200&v=4" alt="GeoNode" width="140" height="140">
+      <h2>Extensível e Interoperável</h2>
+      <p>O <b>GeoNode</b> é projetado para ser estendido e modificado e pode ser integrado a plataformas existentes. É construído sobre uma plataforma de componentes de código aberto comprovados, incluindo Python/Django, GeoServer, pycsw, OpenLayers e outros.
+      <p><a class="btn btn-secondary" href="https://geonode.org/dev_features/" role="button">Para desenvolvedores »</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="https://avatars.githubusercontent.com/u/132843?s=200&v=4" alt="GeoNode" width="140" height="140">
+      <h2>Gerenciamento Colaborativo</h2>
+      <p>Os componentes do GeoNode facilitam a interação com outras implantações do GeoNode, serviços OGC externos, bem como outros serviços e ferramentas sociais populares - Com foco em interoperabilidade e distribuição de dados abertos</p>
+      <p><a class="btn btn-secondary" href="https://geonode.org/user_features/" role="button">Para usuários »</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div>
+
+  <hr />
+  
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  {%- if posts.size > 0 -%}
+  <section id="posts-section">    
+    <h1 class="text-center">{%- if page.list_title -%} {{ page.list_title }} {%- else -%} Posts recentes {%- endif -%}</h1>    <div class="row">
+      <div class="col-12">        
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- for post in posts -%}
+        <a href="{{ post.url | relative_url }}">
+          <h3>{{ post.title | escape }}</h3>
+        </a>
+
+        {% if site.show_excerpts %}
+          {% assign word_count = post.excerpt | number_of_words %}
+          {% assign excerpt = post.excerpt | strip_html %}
+          <p>
+          {% if word_count < 30 %}
+            {{ excerpt }}
+          {% else %}
+            {{ excerpt | slice: 0, 199 }}... <a href="{{ post.url | relative_url }}">(Continue lendo)</a>
+          {% endif %}
+          </p>
+        {% endif %}
+
+        <div>
+          <span class="badge badge-secondary">Publicado em: {{ post.date | date: date_format }}</span>
+          <div class="pull-right">
+            {%- for category in post.categories -%}
+            <span class="badge badge-primary mx-1">{{ category }}</span>
+            {%- endfor -%}
+          </div>         
+        </div>
+        <hr />
+        {%- endfor -%}
+      </div>
+    </div>
+
+    {% if site.paginate %}
+      {% if paginator.total_pages > 1 %}
+      <nav aria-label="Post Navigation">
+        <ul class="pagination justify-content-center">
+          {%- if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}#posts-section" tabindex="-1">Anterior</a>
+            </li>
+          {%- endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+            <li class="page-item active">
+              <a class="page-link">{{ page }}</a>
+            </li>
+            {% else %}
+            <li class="page-item">
+              <a class="page-link" href="{% if page == 1 %}{{ '/' | relative_url }}{% else %}{{ site.paginate_path | relative_url | replace: ':num', page }}{% endif %}#posts-section">{{ page }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+
+          {%- if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}#posts-section">Próximo</a>
+            </li>
+          {%- endif %}
+        </ul>
+      </nav>
+      {%- endif %}
+    {%- endif %}
+  </section>
+  {%- endif -%}
+</div>

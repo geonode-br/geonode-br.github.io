@@ -1,0 +1,57 @@
+{%- assign social = site.minima.social_links -%}
+
+{%- for glb in social.gitlab -%}{%- if glb.username and glb.instance -%}<a href="https://{{ glb.instance | cgi_escape | escape}}/{{glb.username}}" target="_blank" title="{{ glb.username | escape }}"> 
+    <i class="fa fa-2x fa-gitlab mx-1"></i>
+</a>{%- endif -%}{%- endfor -%}
+{%- if social.dribbble -%}<a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" target="_blank" title="{{ social.dribbble | escape }}"> 
+    <i class="fa fa-2x fa-dribbble mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.facebook -%}<a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" target="_blank" title="{{ social.facebook | escape }}"> 
+    <i class="fa fa-2x fa-facebook mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.flickr -%}<a href="https://www.flickr.com/photos/{{ social.flickr | cgi_escape | escape }}" target="_blank" title="{{ social.flickr | escape }}"> 
+    <i class="fa fa-2x fa-flickr mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.github -%}<a href="https://github.com/{{ social.github | cgi_escape | escape }}" target="_blank" title="{{ social.github | escape }}"> 
+    <i class="fa fa-2x fa-github mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.stackoverflow -%}<a href="https://stackoverflow.com/users/{{ social.stackoverflow | cgi_escape | escape }}" target="_blank" title="{{ social.stackoverflow | escape }}"> 
+    <i class="fa fa-2x fa-stack-overflow mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.instagram -%}<a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" target="_blank" title="{{ social.instagram | escape }}"> 
+    <i class="fa fa-2x fa-instagram mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.linkedin -%}<a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" target="_blank" title="{{ social.linkedin | escape }}"> 
+    <i class="fa fa-2x fa-linkedin mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.pinterest -%}<a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}" target="_blank" title="{{ social.pinterest | escape }}"> 
+    <i class="fa fa-2x fa-pinterest mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.twitter -%}<a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" target="_blank" title="{{ social.twitter | escape }}"> 
+    <i class="fa fa-2x fa-twitter mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.youtube -%}<a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" target="_blank" title="{{ social.youtube | escape }}"> 
+    <i class="fa fa-2x fa-youtube-play mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.youtube_channel -%}<a href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" target="_blank" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"> 
+    <i class="fa fa-2x fa-youtube mx-1"></i> 
+</a>{%- endif -%}
+{%- if social.telegram -%}<a href="https://t.me/{{ social.telegram | cgi_escape | escape }}" target="_blank" title="{{ social.telegram | escape }}"> 
+    <i class="fa fa-2x fa-telegram mx-1"></i> 
+</a>{%- endif -%}
+
+{% comment %}
+<!-- Not found in FontAwesome-->
+{%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}<a href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" target="_blank" title="{{ mst.username | escape }}">
+    <svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg>
+</a>{%- endif -%}{%- endfor -%}
+{%- if social.keybase -%}<a href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}" target="_blank" title="{{ social.keybase | escape }}">
+    <svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#keybase' | relative_url }}"></use></svg>
+</a>{%- endif -%}
+{%- if social.microdotblog -%}<a href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}" target="_blank" title="{{ social.microdotblog | escape }}">
+    <svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#microdotblog' | relative_url }}"></use></svg>
+</a>{%- endif -%}
+{%- if social.devto -%}<a href="https://dev.to/{{ social.devto | cgi_escape | escape }}" target="_blank" title="{{ social.devto | escape }}">
+    <svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#devto' | relative_url }}"></use></svg>
+</a>{%- endif -%}
+{% endcomment %}

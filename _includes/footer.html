@@ -1,0 +1,19 @@
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <footer class="footer text-center">
+    <div class="container">  
+      <p>{% if site.title -%} {{ site.title | escape }} {% endif -%} | {{ site.description | escape }}</p>
+      <p>
+        {% if site.email -%}
+          <a href="mailto:{{ site.email }}" target="_blank" title="Envie-nos um e-mail"> 
+            <i class="fa fa-2x fa-envelope mx-1"></i> 
+          </a>
+        {%- endif %}
+
+        {%- include social.html -%}
+
+        <a href="{{ 'feed.xml' | relative_url }}" target="_blank" title="Assine nosso RSS feed">
+          <i class="fa fa-2x fa-rss mx-1"></i>
+        </a>
+      </p>
+    </div>  
+  </footer>

@@ -1,42 +1,35 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
----
-
-![Geonode BR](assets/img/geonode-br.png "Geonode BR")
-
-## I Encontro de Usuários e Desenvolvedores do GeoNode Brasil: *Gerenciamento de Conteúdo Geoespacial Ambiental*
-
+layout: post
+title:  "I Encontro de Usuários e Desenvolvedores do GeoNode Brasil: Gerenciamento de Conteúdo Geoespacial Ambiental"
+date:   2022-03-04 19:44:10 -0300
+excerpt: Com a criação da Comunidade GeoNodeBR, com foco na união de esforços e de competências para o compartilhamento e o desenvolvimento de ações relacionadas ao GeoNode. O primeiro encontro desta comunidade é a realização do primeiro encontro de usuários e desenvolvedores brasileiros de GeoNode. 
+categories: eventos youtube
 ---
 
 17 e 18 de Março, 9h às 12h, no [Canal da Embrapa no Youtube](https://www.youtube.com/c/embrapa)
 
 Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7) para participar do evento e receber nossas newsletters!
 
-<br />
+## Realização
 
-# Realização
+![Embrapa](/assets/img/partners/embrapa.png "Embrapa")
+![IBGE](/assets/img/partners/ibge.png "IBGE")
+![SGB/CPRM](/assets/img/partners/sgb_cprm.png "SGB/CPRM")
+![ANA](/assets/img/partners/ana.png "ANA")
 
-![Embrapa](assets/img/partners/embrapa.png "Embrapa")
-![IBGE](assets/img/partners/ibge.png "IBGE")
-![SGB/CPRM](assets/img/partners/sgb_cprm.png "SGB/CPRM")
-![ANA](assets/img/partners/ana.png "ANA")
+## Apoio Institucional
 
-# Apoio Institucional
+![UFPR](/assets/img/partners/ufpr.png "UFPR")
+![CAGEPA](/assets/img/partners/cagepa.png "CAGEPA")
+![GEOBASES](/assets/img/partners/geobases.png "GEOBASES")
+![GeoSolutions](/assets/img/partners/geosolutions.png "GeoSolutions")
+![GeoCursos](/assets/img/partners/geocursos.png "GeoCursos")
+![OSGEO](/assets/img/partners/osgeo.png "OSGEO")
+![QGIS-BR](/assets/img/partners/qgisbr.png "QGIS-BR")
 
-![UFPR](assets/img/partners/ufpr.png "UFPR")
-![CAGEPA](assets/img/partners/cagepa.png "CAGEPA")
-![GEOBASES](assets/img/partners/geobases.png "GEOBASES")
-![GeoSolutions](assets/img/partners/geosolutions.png "GeoSolutions")
-![GeoCursos](assets/img/partners/geocursos.png "GeoCursos")
-![OSGEO](assets/img/partners/osgeo.png "OSGEO")
-![QGIS-BR](assets/img/partners/qgisbr.png "QGIS-BR")
+## Programação
 
-# Programação
-
-## Dia 17/03/2022 (Quinta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=W8XaFdakBEs)
+### Dia 17/03/2022 (Quinta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=W8XaFdakBEs)
 
 > GeoNode: solução para a criação de IDEs e o compartilhamento de dados espaciais abertos - Moderadora: Margareth Simões (Embrapa Solos)
 
@@ -51,7 +44,7 @@ Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7)
 
 ---
 
-## Dia 18/03/2022 (Sexta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=J529I5FSfBE)
+### Dia 18/03/2022 (Sexta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=J529I5FSfBE)
 
 > PITCH de Experiências institucionais e desafios com uso do GeoNode - Moderadora: Daniela Maciel Pinto (Embrapa Territorial)
 
