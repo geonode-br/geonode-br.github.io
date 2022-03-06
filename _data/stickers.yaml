@@ -1,0 +1,26 @@
+- image: 
+    src: https://avatars.githubusercontent.com/u/132843?s=200&v=4
+    alt: GeoNode
+  title: IDE livre e de Código Aberto
+  content: <b>GeoNode</b> é um aplicativo baseado na web e plataforma para desenvolvimento de sistemas de informação geoespacial (GIS) e para implantação de infraestruturas de dados espaciais (IDE). O Geonode oferece suporte uma gama de padrões <a href="https://www.ogc.org/" target="_blank">OGC</a> & <a href="https://committee.iso.org/home/tc211" target="_blank">ISO/TC 211</a>
+  button: 
+    text: Conheça o Projeto
+    href: https://geonode.org/
+
+- image: 
+    src: https://avatars.githubusercontent.com/u/132843?s=200&v=4
+    alt: GeoNode 
+  title: Extensível e Interoperável
+  content: O <b>GeoNode</b> é projetado para ser estendido e modificado e pode ser integrado a plataformas existentes. É construído sobre uma plataforma de componentes de código aberto comprovados, incluindo <a href="https://www.djangoproject.com/" target="_blank">Python/Django</a>, <a href="http://geoserver.org/" target="_blank">GeoServer</a>, <a href="https://pycsw.org/" target="_blank">pycsw</a>, <a href="https://openlayers.org/" target="_blank">OpenLayers</a> e outros.
+  button: 
+    text: Para desenvolvedores
+    href: https://geonode.org/dev_features/
+
+- image:  
+    src: https://avatars.githubusercontent.com/u/132843?s=200&v=4
+    alt: GeoNode
+  title: Gerenciamento Colaborativo
+  content: Os componentes do GeoNode facilitam a interação com outras implantações do GeoNode, serviços OGC externos, bem como outros serviços e ferramentas sociais populares - Com foco em interoperabilidade e distribuição de dados abertos
+  button: 
+    text: Para usuários
+    href: https://geonode.org/user_features/
