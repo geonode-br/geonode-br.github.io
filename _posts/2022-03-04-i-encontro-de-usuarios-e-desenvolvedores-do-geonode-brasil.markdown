@@ -26,8 +26,9 @@ Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7)
 ![GeoCursos](/assets/img/partners/geocursos.png "GeoCursos")
 ![OSGEO](/assets/img/partners/osgeo.png "OSGEO")
 ![QGIS-BR](/assets/img/partners/qgisbr.png "QGIS-BR")
+![GeoCursos](/assets/img/partners/geosaber.png "Geosaber")
 
-## Programação
+## Programação (Atualizado em 11/03/2022 - 10:20)
 
 ### Dia 17/03/2022 (Quinta-feira): [Transmissão no YouTube](https://www.youtube.com/watch?v=W8XaFdakBEs)
 
@@ -51,12 +52,12 @@ Preencha nosso [Formulário de Inscrição](https://forms.gle/dPs9igJoCfeUBT7T7)
 **9h** | Abertura |
 **9h05** | Geobases/ES | Giuliano Grigolin
 **9h10** | Diretoria de Serviço Geográfico do Exército/DSG |  Major Luiz Claudio Andrade
-**9h15** | ZETTA/UFLA | Nadir Antunes de Andrade Junior
+**9h15** | FUNDECC | Nadir Antunes de Andrade Junior
 **9h20** | ANA | Alexandre Amorim
 **9h25** | Ministério Público do Paraná - MPPR  | Maurielle Felix da Silva
 **9h30** | Companhia de Água da Paraíba/Cagepa | Diego Varela
 **9h35** | UNB | Elton Souza Oliveira
-**9h40** | CODEPLAN-DF | (à confirmar)
+**9h40** | CODEPLAN-DF | Patrícia Alves
 
 > Palestras
 
