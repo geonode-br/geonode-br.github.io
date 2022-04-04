@@ -7,6 +7,7 @@ categories: eventos
 ---
 
 ## Dia 17/03/2022
+
 **Pergunta para Rafael Lopes Silva IBGE** “Dentro da estrutura apresentada, se a instituição aderir ao catálogo de metadados e de geoserviços da INDE, automaticamente os dados estariam disponíveis no portal de dados abertos?" - Alexandre Amorim / ANA
 
 **Resposta:** As entidades ao aderir a INDE, devem catalogar seus conjuntos de dados geoespaciais de acordo com as normas e padrões pré-definidos. A questão da integração com o Portal Brasileiro de Dados Abertos está relacionada com o Visualizador da INDE. Logo, se a instituição possuir apenas metadados publicados, esses dados não estarão disponíveis no portal brasileiro de dados abertos. Com certeza, em determinado momento, isso será possível. A definição de utilizar a estratégia de integrar inicialmente ao visualizador da INDE está relacionada com a garantia dos padrões WMS/WFS estarem coerentes com os padrões de dados abertos. Mas respondendo sua pergunta, a integração direta dos catálogos de metadados e de geoserviços com o Portal brasileiro de dados abertos ainda não estão implementadas, apenas com o visualizador da INDE.
@@ -116,3 +117,64 @@ categories: eventos
 **Comentário** “Acho que construir interfaces mais amigáveis para inserir metadados pode favorecer a inserção dos metadados” raphael campos
 
 **Resposta Hesley:** De acordo. A comunidade do Geonode Br pode auxiliar nesse processo de construção. Além disso, temos tb a possibilidade de criação de plugins que permitam a publicação dos metadados a partir de outros softwares como, por exemplo, já foi feito para o QGis.
+
+
+## Dia 18/03/2022
+
+**Pergunta para Alexandre Amorim/ANA:** “como as agências estaduais de RH estão se estruturando para publicar seus serviços de dados e metadados?” Fabíola - UFBA/UFPR 
+
+**Resposta:** Oi, Fabíola. Cada membro do SINGREH possui e tem liberdade para desenvolver uma solução para disponibilizar seus geoserviços e metadados. Sejam soluções proprietárias ou não. Mais importante que a tecnologia é a adoção dos padrões de comunicação de catálogo de dados ou de geoserviços. (resposta dada no chat do YouTube).
+
+---
+
+**Pergunta para Carlos (CPRM):** “Quais seriam as vantagens para o IBGE se ao invés de geonetwork usarem o GeoNode?” Daniela Maciel - Embrapa Territorial
+
+**Resposta:** As duas principais vantagens correspondem a oferecer outra opção de software de SDI/IDE e pelo GeoNode ser uma solução tudo em um. Estas razões podem oferecer impacto positivo em associação de novos nós de geodados e de simplificação de estruturas
+
+---
+
+**Pergunta para Carlos (CPRM):** “É possível se fazer os metadados e as definições de legendas, a visualização do webservice, via QGis e integrar com o Geonode? Vocês da CPRM integram esse trabalho de qual maneira?” Priscila da Costa Taveira (MMA)
+
+**Resposta:** A gente ainda usa o GeoNode como testes, mas já estamos fazendo o trabalho de alicerce, focado em usar padrões abertos para armazenamento de dados geoespaciais. Esperamos ainda esse mês relançar as bibliotecas de simbologias da CPRM em formato aberto, para permitir o uso de ferramentas como o GeoNode.
+
+---
+
+**Pergunta para Carlos (CPRM):** “Um dos problemas do Geonetwork é a necessidade de web para a documentação. E no Geonode?” Priscila da Costa Taveira (MMA).
+**Resposta:** É a mesma coisa. Toda a documentação encontra-se na web
+
+---
+
+**Pergunta para GeoSolutions:** “Vai ter possibilidade de usar geopackage na próxima versão?” Daniela Maciel - Embrapa Territorial
+In this version, we can download archives on geopackages format; Will be possible to upload geopackage extensions in the next version?
+
+**Resposta:** (Pendente)
+
+---
+
+**Pergunta para GeoSolutions:** “Thinking in scalability, what do you think about the viability of ‘explode’ the geoserver container into three new ones: geoserver, geowebcache and geofence?” Carlos Mota - CPRM
+
+**Resposta:** (Pendente)
+
+---
+
+**Pergunta para GeoSolutions:** “When will geonode version 4.0 be released on github for community testing?” Diego Varela He says on github for community testing
+
+**Resposta:** (Pendente)
+
+---
+
+**Pergunta para GeoSolutions:** “Quais orientações vocês podem dar para os desenvolvedores GeoNode que irão aderir ao novo padrão de API da OGC no estado da arte? Existe um prazo para uma solução GeoNode&OGC API?” Ingrid Santana - UFMG what guidelines you guys can give to geonode`s developers which  will join the new API standard from OGC. Is this foreseen in the geonode project?
+
+**Resposta:** (Pendente)
+
+---
+
+**Pergunta para GeoSolutions:** “About the incompatibility between version 4.0 and the previous ones, what is the impact for migrations? ​Which components will be most affected?” Giuliano - GEOBASES-ES
+
+**Resposta:** (Pendente)
+
+---
+
+ **Pergunta para GeoSolutions:** “How to contribute for translations to brazilian portuguese of the new version of Geonode 4.0?” Édson Flávio de Souza
+ 
+**Resposta:** (Pendente)
